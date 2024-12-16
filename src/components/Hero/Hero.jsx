@@ -3,26 +3,9 @@ import { FaArrowRight, FaPlay } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className="relative overflow-hidden aurora-bg before:absolute before:top-0 before:start-1/2 before:w-full before:h-full before:-z-[1] before:transform before:-translate-x-1/2">
-      <style jsx>{`
-        @keyframes aurora {
-          0% {
-            background-position: 0% 50%;
-          }
-          50% {
-            background-position: 100% 50%;
-          }
-          100% {
-            background-position: 0% 50%;
-          }
-        }
-
-        .aurora-bg {
-          background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a18cd1, #fad0c4, #ff9a9e);
-          background-size: 1400% 1400%;
-          animation: aurora 15s ease infinite;
-        }
-      `}</style>
+    <div className="relative overflow-hidden aurora-bg before:absolute before:top-0 before:start-1/2 before:w-full before:h-full before:-z-[1] 
+    before:transform before:-translate-x-1/2">
+     
       <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
         {/* Announcement Banner */}
         <div className="flex justify-center">
@@ -74,7 +57,7 @@ const Hero = () => {
                 </h2>
 
                 <div className="mt-8 relative overflow-hidden">
-                  <div className="flex animate-scroll space-x-16">
+                  <div className="flex space-x-16 animate-scroll">
                     {/* First set of brands */}
                     <div className="flex space-x-16 min-w-full">
                       <div className="flex items-center justify-center">
@@ -162,3 +145,9 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+
+
