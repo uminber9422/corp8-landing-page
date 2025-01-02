@@ -23,7 +23,7 @@ export default {
         },
         secondary: {
           50: '#fef2f2',
-        },
+        }, 
       },
       keyframes: {
         'slide-up': {
