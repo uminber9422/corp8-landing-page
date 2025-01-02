@@ -1,6 +1,8 @@
 // tailwind.config.cjs
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+import preline from 'preline/plugin';
+
+export default {
   // darkMode: 'class',
   content: [
     "./index.html",
@@ -47,6 +49,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('preline/plugin'),
+    preline,
   ],
 }
