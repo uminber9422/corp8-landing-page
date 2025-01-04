@@ -1,4 +1,4 @@
-# Shodh App
+# corp8.ai App
 
 A modern React-based landing page application built with Vite and styled with Tailwind CSS.
 
