@@ -1,0 +1,89 @@
+:root {
+	--chat--color-primary: #4169E1;
+	--chat--color-primary-shade-50: #3658c7;
+	--chat--color-primary-shade-100: #2b47ad;
+	--chat--color-secondary: #8A2BE2;
+	--chat--color-secondary-shade-50: #7a26cc;
+	--chat--color-white: #ffffff;
+	--chat--color-light: #f2f4f8;
+	--chat--color-light-shade-50: #e6e9f1;
+	--chat--color-light-shade-100: #c2c5cc;
+	--chat--color-medium: #d2d4d9;
+	--chat--color-dark: #101330;
+	--chat--color-disabled: #777980;
+	--chat--color-typing: #404040;
+}
+
+/* Custom styles for n8n chat widget positioning */
+.n8n-chat-widget {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 1000 !important;
+}
+
+/* Reset any previous styles */
+#n8n-chat-widget * {
+  --chat-primary-color: #4169E1;
+  --chat-secondary-color: #8A2BE2;
+}
+
+/* Chat toggle button */
+div[class*="chat-window-toggle"] {
+  background: linear-gradient(90deg, #4169E1 0%, #8A2BE2 100%) !important;
+  color: white !important;
+}
+
+/* Message bubbles */
+div[class*="message-bubble"][class*="outgoing"] {
+  background: linear-gradient(90deg, #4169E1 0%, #8A2BE2 100%) !important;
+  color: white !important;
+}
+
+/* Submit button */
+button[class*="submit-button"] {
+  background: linear-gradient(90deg, #4169E1 0%, #8A2BE2 100%) !important;
+  color: white !important;
+}
+
+/* Chat header */
+div[class*="chat-window-header"] {
+  background: linear-gradient(90deg, #4169E1 0%, #8A2BE2 100%) !important;
+}
+
+/* Input field */
+div[class*="chat-input"] input {
+  border-color: #4169E1 !important;
+}
+
+div[class*="chat-input"] input:focus {
+  border-color: #8A2BE2 !important;
+  box-shadow: 0 0 0 2px rgba(138, 43, 226, 0.2) !important;
+}
+
+/* Hide n8n powered by text */
+div[class*="powered-by"] {
+  display: none !important;
+}
+
+/* Custom Corp8.ai branding */
+.chat-input-container::after {
+  content: 'Powered by Corp8.ai';
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+  font-family: inherit;
+}
+
+/* Override any n8n specific styles */
+[class*="n8n-"] [class*="primary"],
+[class*="n8n-"] [class*="secondary"] {
+  background: linear-gradient(90deg, #4169E1 0%, #8A2BE2 100%) !important;
+  color: white !important;
+}
+
+#n8n-chat-widget .chat-typing-indicator {
+  color: #404040 !important;
+}

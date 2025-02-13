@@ -9,6 +9,8 @@ import Pricing from './components/Pricing/Pricing';
 import Testimonials from './components/Testimonials/Testimonials';
 import FAQ from './components/FAQ/FAQ';
 import Footer from './components/Footer/Footer';
+import N8nChat from './components/chat/N8nChat';
+import VoiceBot from './components/voicebot/VoiceBot';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Testimonials />
       <FAQ />
       <Footer />
+      <N8nChat />
+      <VoiceBot />
     </div>
   );
 }
