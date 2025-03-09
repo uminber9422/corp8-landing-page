@@ -6,7 +6,16 @@ import {
   FaShieldAlt, 
   FaRocket, 
   FaSyncAlt, 
-  FaUsersCog 
+  FaUsersCog, 
+  FaRobot,        // Autonomous Process Automation  
+  FaComments,     // Smart AI Assistants  
+  FaCodeBranch,   // Zero-Code AI Deployment  
+  FaLock,         // AI-Enhanced Cybersecurity & Compliance  
+  FaChartLine,    // Hyper-Personalized AI Insights  
+  FaFileAlt,      // AI-Powered Document & Data Processing  
+  FaIndustry,     // Industry-Specific AI Solutions  
+  FaLightbulb,    // AI for Business Intelligence & Growth  
+  FaProjectDiagram // Adaptive AI Workflows & Collaboration 
 } from 'react-icons/fa';
 
 const Features = () => {
@@ -19,16 +28,16 @@ const Features = () => {
       gradient: "from-blue-600/20 to-transparent",
     },
     {
-      icon: <FaChartPie />, 
-      title: "Business Analytics",
-      description: "Gain actionable insights with real-time analytics and comprehensive business intelligence dashboards.",
+      icon: <FaRobot />, 
+      title: "Smart AI Assistants",
+      description: "Deploy AI-powered virtual assistants that provide instant, context-aware responses for all business operations.",
       color: "text-purple-600",
       gradient: "from-purple-600/20 to-transparent",
     },
     {
-      icon: <FaShieldAlt />, 
-      title: "Enterprise Security",
-      description: "Bank-grade security protocols with SOC 2 compliance and end-to-end encryption for your sensitive data.",
+      icon: <FaFileAlt />, 
+      title: "  AI-Powered Document Processing",
+      description: "Easily integrate AI into your systems without writing complex code. Drag-and-drop tools enable seamless automation.",
       color: "text-emerald-600",
       gradient: "from-emerald-600/20 to-transparent",
     },
@@ -41,8 +50,8 @@ const Features = () => {
     },
     {
       icon: <FaSyncAlt />, 
-      title: "Seamless Integration",
-      description: "Connect with your existing tools through our comprehensive API and pre-built enterprise integrations.",
+      title: "Industry-Specific AI Solutions",
+      description: "Tailor AI for your industry with custom-built models for manufacturing, finance, retail, healthcare and more.",
       color: "text-amber-600",
       gradient: "from-amber-600/20 to-transparent",
     },

@@ -12,16 +12,16 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-neutral-200">
       {/* Enterprise Banner */}
-      <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-tr from-primary-600 to-accent-600 rounded-xl p-6 sm:p-8 md:p-10 relative overflow-hidden">
+      {/* <div className="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-tr from-primary-600 to-accent-600 rounded-xl p-6 sm:p-8 md:p-10 relative overflow-hidden"> */}
           {/* Background Pattern */}
-          <div className="absolute inset-0 opacity-10">
+          {/* <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
               backgroundImage: "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
             }} />
-          </div>
+          </div> */}
 
-          <div className="relative">
+          {/* <div className="relative">
             <div className="max-w-2xl mx-auto text-center">
               <span className="inline-flex items-center gap-x-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-white text-sm font-medium mb-4">
                 <FaAward className="w-4 h-4" />
@@ -45,9 +45,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* Certifications */}
+      {/* Certifications
       <div className="max-w-[85rem] mx-auto py-8 px-4 sm:px-6 lg:px-8 border-b border-neutral-200">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
           {certifications.map((cert, index) => (
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Main Footer */}
       <div className="max-w-[85rem] py-12 px-4 sm:px-6 lg:px-8 mx-auto">

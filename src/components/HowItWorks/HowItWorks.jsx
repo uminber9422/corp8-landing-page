@@ -62,13 +62,6 @@ const HowItWorks = () => {
               <p className="text-neutral-600">{step.description}</p>
             </div>
 
-            {/* Learn More Link */}
-            <div className="mt-auto p-6">
-              <a className="inline-flex items-center gap-x-2 text-primary-600 hover:text-primary-700 font-medium" href="#">
-                Learn More
-                <FaArrowRight className="w-4 h-4" />
-              </a>
-            </div>
           </div>
         ))}
       </div>
@@ -79,7 +72,7 @@ const HowItWorks = () => {
         <div className="inline-block bg-gradient-to-tr from-primary-600 to-accent-600 rounded-full p-1">
           <a 
             className="group inline-flex items-center gap-x-3.5 text-center bg-white hover:bg-transparent border border-transparent text-neutral-800 hover:text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-6"
-            href="#"
+            href="https://wa.me/+918200793896?text=I%20want%20to%20get%20a%20demo%20of%20Corp8%20AI"
           >
             Schedule a Demo
             <FaArrowRight className="w-3.5 h-3.5 transition ease-in-out group-hover:translate-x-1" />

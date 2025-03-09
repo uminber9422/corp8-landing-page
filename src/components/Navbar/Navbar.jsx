@@ -9,9 +9,9 @@ const Navbar = () => {
       <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a className="flex-none text-xl font-semibold text-black" href="#">
-            <span className="text-primary-600">Corp8</span>.ai
-          </a>
+<a className="flex-none" href="https://corp8.ai/">
+  <img src="./assets/corp8_ai_logo-CRkx7EBU.jpeg" alt="Corp8 AI Logo" className="h-8" />
+</a>
           {/* Mobile Menu Button */}
           <div className="sm:hidden">
             <button
@@ -28,13 +28,13 @@ const Navbar = () => {
         
         <div id="navbar-collapse-with-animation" className={`hs-collapse ${isOpen ? 'block' : 'hidden'} transition-all duration-300 basis-full grow sm:block`}>
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
-            <a className="font-medium text-neutral-600 hover:text-primary-600" href="#features">Features</a>
-            <a className="font-medium text-neutral-600 hover:text-primary-600" href="#solutions">Solutions</a>
-            <a className="font-medium text-neutral-600 hover:text-primary-600" href="#pricing">Pricing</a>
-            <a className="font-medium text-neutral-600 hover:text-primary-600" href="#about">About</a>
+            {/* <a className="font-medium text-neutral-600 hover:text-primary-600" href="#features">Features</a> */}
+            {/* <a className="font-medium text-neutral-600 hover:text-primary-600" href="#solutions">Solutions</a> */}
+            {/* <a className="font-medium text-neutral-600 hover:text-primary-600" href="#pricing">Pricing</a> */}
+            {/* <a className="font-medium text-neutral-600 hover:text-primary-600" href="#about">About</a> */}
             <div className="flex items-center gap-4">
-              <a className="font-medium text-neutral-600 hover:text-primary-600" href="#login">Login</a>
-              <a className="py-2 px-4 inline-flex justify-center items-center gap-2 rounded-full font-semibold bg-primary-600 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-all text-sm" href="#signup">
+              <a className="font-medium text-neutral-600 hover:text-primary-600" href="https://app.corp8.ai/sign-in">Login</a>
+              <a className="py-2 px-4 inline-flex justify-center items-center gap-2 rounded-full font-semibold bg-primary-600 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-all text-sm" href="https://app.corp8.ai/sign-up">
                 Get started
               </a>
             </div>
